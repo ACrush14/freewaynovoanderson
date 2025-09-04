@@ -1,0 +1,62 @@
+[gd_scene load_steps=8 format=3 uid="uid://yt616tkaysky"]
+
+[ext_resource type="Script" uid="uid://cgp724u6hc5ub" path="res://Cenas/crocodilo.gd" id="1_ipgmr"]
+[ext_resource type="Texture2D" uid="uid://jvv1tgel3tp" path="res://Material Freeway/Crocodilo.png" id="1_n1kha"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipgmr"]
+atlas = ExtResource("1_n1kha")
+region = Rect2(24, 0, 24, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_84sgb"]
+atlas = ExtResource("1_n1kha")
+region = Rect2(0, 0, 24, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qb4fm"]
+atlas = ExtResource("1_n1kha")
+region = Rect2(48, 0, 24, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fi4au"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipgmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_84sgb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipgmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qb4fm")
+}],
+"loop": true,
+"name": &"Crocodilo",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hjgwp"]
+size = Vector2(64, 33)
+
+[node name="Crocodilo" type="RigidBody2D"]
+gravity_scale = 0.0
+script = ExtResource("1_ipgmr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+rotation = 1.5708
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_fi4au")
+animation = &"Crocodilo"
+frame = 3
+frame_progress = 0.818353
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_hjgwp")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0, -9.53674e-07)
+scale = Vector2(0.8, 0.8)
+
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

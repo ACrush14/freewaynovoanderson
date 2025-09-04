@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpj8js87s1hqt"]
+
+[ext_resource type="Script" uid="uid://d0o5kgw8mfndy" path="res://Cenas/hud.gd" id="1_1pfdj"]
+[ext_resource type="FontFile" uid="uid://bkcntev1iivdf" path="res://Material Freeway/PressStart2P-Regular.ttf" id="1_kgovw"]
+
+[node name="HUD" type="CanvasLayer" node_paths=PackedStringArray("texto")]
+script = ExtResource("1_1pfdj")
+texto = NodePath("Timer")
+
+[node name="Placar01" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -319.0
+offset_right = -219.0
+offset_bottom = 60.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 32
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Placar02" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 172.0
+offset_right = 272.0
+offset_bottom = 60.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 32
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Mensagem" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -90.5
+offset_top = -11.5
+offset_right = 90.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 32
+text = "Parabéns, você venceu!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+offset_left = 540.0
+offset_top = 430.0
+offset_right = 740.0
+offset_bottom = 480.0
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 32
+text = "REINICIAR"
+
+[node name="Timer" type="Label" parent="."]
+offset_left = 959.0
+offset_top = 680.0
+offset_right = 1259.0
+offset_bottom = 710.0
+theme_override_fonts/font = ExtResource("1_kgovw")
+theme_override_font_sizes/font_size = 30
+text = "TEMPO: 120"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=3 uid="uid://dgxlg3eri6a0j"]
+
+[ext_resource type="PackedScene" uid="uid://80o2r4bwsdmv" path="res://Cenas/player.tscn" id="1_74bqr"]
+[ext_resource type="Texture2D" uid="uid://61t8q5v45j1q" path="res://Material Freeway/wallpaperfreeway2.png" id="1_ruij7"]
+[ext_resource type="Script" uid="uid://cb30ddmfs3n8k" path="res://Cenas/main.gd" id="1_x6di6"]
+[ext_resource type="PackedScene" uid="uid://bgl55y0nl1vl5" path="res://Cenas/linha_chegada.tscn" id="2_ruij7"]
+[ext_resource type="Script" uid="uid://di08fj6nr6vac" path="res://Cenas/player2.gd" id="4_btbr3"]
+[ext_resource type="AudioStream" uid="uid://bm7c033nagxf2" path="res://Material Freeway/sons/tema.wav" id="4_n00j1"]
+[ext_resource type="AudioStream" uid="uid://bafcnc2dheygu" path="res://Material Freeway/sons/ponto.wav" id="5_x6di6"]
+[ext_resource type="AudioStream" uid="uid://cohih1cogkeph" path="res://Material Freeway/sons/ganhou.wav" id="6_btbr3"]
+[ext_resource type="PackedScene" uid="uid://cpj8js87s1hqt" path="res://Cenas/hud.tscn" id="7_jjrtw"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_x6di6")
+
+[node name="Rio" type="Sprite2D" parent="."]
+position = Vector2(638, 359)
+texture = ExtResource("1_ruij7")
+
+[node name="Player" parent="." instance=ExtResource("1_74bqr")]
+position = Vector2(640, 690)
+
+[node name="Player2" parent="." instance=ExtResource("1_74bqr")]
+position = Vector2(751, 690)
+script = ExtResource("4_btbr3")
+
+[node name="LinhaChegada" parent="." instance=ExtResource("2_ruij7")]
+position = Vector2(640, 64)
+
+[node name="TimerCrocRapidos" type="Timer" parent="."]
+wait_time = 0.3
+autostart = true
+
+[node name="TimerCrocLentos" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[node name="AudioTema" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_n00j1")
+
+[node name="AudioPonto" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_x6di6")
+
+[node name="AudioVitoria" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_btbr3")
+
+[node name="HUD" parent="." instance=ExtResource("7_jjrtw")]
+
+[node name="TimerJogo" type="Timer" parent="."]
+wait_time = 136.0
+one_shot = true
+autostart = true
+
+[connection signal="pontua" from="Player" to="." method="_on_player_pontua"]
+[connection signal="pontua1" from="Player" to="." method="_on_player_pontua_1"]
+[connection signal="pontua" from="Player2" to="." method="_on_player_pontua"]
+[connection signal="pontua" from="Player2" to="." method="_on_player_2_pontua"]
+[connection signal="pontua2" from="Player2" to="." method="_on_player_2_pontua_2"]
+[connection signal="timeout" from="TimerCrocRapidos" to="." method="_on_timer_croc_rapidos_timeout"]
+[connection signal="timeout" from="TimerCrocRapidos" to="." method="_on_timer_carros_rapidos_timeout"]
+[connection signal="timeout" from="TimerCrocLentos" to="." method="_on_timer_croc_lentos_timeout"]
+[connection signal="timeout" from="TimerCrocLentos" to="." method="_on_timer_carros_lentos_timeout"]
+[connection signal="reinicia" from="HUD" to="." method="_on_hud_reinicia"]
+[connection signal="timeout" from="TimerJogo" to="." method="_on_timer_jogo_timeout"]

@@ -1,0 +1,59 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1756930311
+icon.svg::CompressedTexture2D/CompressedTexture2D::4527873158065566957::1756231371::1756231379::1::::<><><>0<>0<>e40f14e8c0a8db07567a50d915a354e4<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Cenas/::1756752500
+crocodilo.gd::GDScript/GDScript::5226932811220461057::1756324046::0::1::::<>RigidBody2D<><>0<>0<><>::
+crocodilo.tscn::PackedScene::1725685740087657716::1756752500::0::1::::<><><>0<>0<><>::uid://cgp724u6hc5ub::::res://Cenas/crocodilo.gd<>uid://jvv1tgel3tp::::res://Material Freeway/Crocodilo.png
+hud.gd::GDScript/GDScript::8944724148950407226::1756386794::0::1::::<>CanvasLayer<><>0<>0<><>::
+hud.tscn::PackedScene::5846274152527529727::1756752500::0::1::::<><><>0<>0<><>::uid://d0o5kgw8mfndy::::res://Cenas/hud.gd<>uid://bkcntev1iivdf::::res://Material Freeway/PressStart2P-Regular.ttf
+linha_chegada.tscn::PackedScene::2832138284203014344::1756752500::0::1::::<><><>0<>0<><>::uid://xbo30l34iuvb::::res://Material Freeway/ganha.png
+main.gd::GDScript/GDScript::4902356246698835776::1756387739::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::7628555880552066675::1756752500::0::1::::<><><>0<>0<><>::uid://80o2r4bwsdmv::::res://Cenas/player.tscn<>uid://61t8q5v45j1q::::res://Material Freeway/wallpaperfreeway2.png<>uid://cb30ddmfs3n8k::::res://Cenas/main.gd<>uid://bgl55y0nl1vl5::::res://Cenas/linha_chegada.tscn<>uid://di08fj6nr6vac::::res://Cenas/player2.gd<>uid://bm7c033nagxf2::::res://Material Freeway/sons/tema.wav<>uid://bafcnc2dheygu::::res://Material Freeway/sons/ponto.wav<>uid://cohih1cogkeph::::res://Material Freeway/sons/ganhou.wav<>uid://cpj8js87s1hqt::::res://Cenas/hud.tscn
+player2.gd::GDScript/GDScript::7774395354979583550::1756327101::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::8071614175550726779::1756327101::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::2368740476012552457::1756752500::0::1::::<><><>0<>0<><>::uid://dm87kn7vx8oql::::res://Cenas/player.gd<>uid://dsbkdm80jsjmt::::res://Material Freeway/sapo/Frogger001.png<>uid://bses2ucp558q3::::res://Material Freeway/sapo/Frogger002.png<>uid://dw8dvhw42vopk::::res://Material Freeway/sapo/FroggerCima001.png<>uid://dl1dfjbu0sokx::::res://Material Freeway/sapo/FroggerCima002.png<>uid://vdqt2s0886j::::res://Material Freeway/sapo/FroggerDireita001.png<>uid://ck2d6gp3b2pph::::res://Material Freeway/sapo/FroggerDireita002.png<>uid://c8oq2wkoa1oq4::::res://Material Freeway/sapo/FroggerEsquerda001.png<>uid://bdyb5s5v3cgp2::::res://Material Freeway/sapo/FroggerEsquerda002.png<>uid://dqp7xanqc78y0::::res://Material Freeway/sons/colide.wav
+::res://Material Freeway/::1756328471
+Crocodilo.png::CompressedTexture2D/CompressedTexture2D::19893353543447453::1756324037::1756324039::1::::<><><>0<>0<>b0cfd096211d38af32fbce0e4a70708c<>res://.godot/imported/Crocodilo.png-440022953fafc2d6323e19826fa959e9.ctex::
+ganha.png::CompressedTexture2D/CompressedTexture2D::1617309152944758251::1597114383::1756231403::1::::<><><>0<>0<>3d28e14feff895b10e3602298b364c06<>res://.godot/imported/ganha.png-949aa4e3f8570bee50be0c3750003d8e.ctex::
+PressStart2P-Regular.ttf::FontFile/FontFile::3093261370298345343::1402375118::1756231403::1::::<><><>0<>0<>18f1acde42f1f481f1399c6ee25bc349<>res://.godot/imported/PressStart2P-Regular.ttf-a7f607e0528ccc32333eed03c3e69db8.fontdata::
+SpriteSheetFrogger.png::CompressedTexture2D/CompressedTexture2D::4957160272467949021::1756231694::1756231697::1::::<><><>0<>0<>84ad5b07909d91dad3db42868928e1dd<>res://.godot/imported/SpriteSheetFrogger.png-44005d46cd949443e29c2bb70efe94e6.ctex::
+wallpaperfreeway2.png::CompressedTexture2D/CompressedTexture2D::2230741416157805320::1756328467::1756328471::1::::<><><>0<>0<>de13931ec5ffafab4d8467d6c0f75856<>res://.godot/imported/wallpaperfreeway2.png-a63dddd892e4a5c8490f5c152614d407.ctex::
+wallpaperfreeway.png::CompressedTexture2D/CompressedTexture2D::2910868312789741171::1596988804::1756231403::1::::<><><>0<>0<>2081ed33ce3a4fd8d38173b8b8d63069<>res://.godot/imported/wallpaperfreeway.png-2ade459cc66a856308df110d13133460.ctex::
+::res://Material Freeway/carros/::1756231403
+coches (1).png::CompressedTexture2D/CompressedTexture2D::4436429092208016765::1597085784::1756231403::1::::<><><>0<>0<>9764bfc326eefaa65b9a6ceef7b2fdb6<>res://.godot/imported/coches (1).png-924201a6647e0fccbe51e6371ee07528.ctex::
+coches (2).png::CompressedTexture2D/CompressedTexture2D::2114651954843144087::1597085793::1756231403::1::::<><><>0<>0<>3505ebfd6df6762695983c93d58e2456<>res://.godot/imported/coches (2).png-4d959ef2dd39279d4ad1bf8f9070faa3.ctex::
+coches (3).png::CompressedTexture2D/CompressedTexture2D::2670650229563937657::1597085812::1756231403::1::::<><><>0<>0<>e1f6c467e6acd5fea8480df16f3b4456<>res://.godot/imported/coches (3).png-dc8017cc3988fef14bd0b6eef26b37ac.ctex::
+coches (4).png::CompressedTexture2D/CompressedTexture2D::2116989731634433850::1597086483::1756231403::1::::<><><>0<>0<>e6c8037e24a0c347f76b1afff9c4b67c<>res://.godot/imported/coches (4).png-7676c2e87f7be09c844d4bc89892ecfc.ctex::
+coches (5).png::CompressedTexture2D/CompressedTexture2D::7146224173339560849::1597086387::1756231403::1::::<><><>0<>0<>e8d2a1952c4603c2a8635b6c817a336d<>res://.godot/imported/coches (5).png-2f6b9c6b55e62904928724dff5b52635.ctex::
+coches (6).png::CompressedTexture2D/CompressedTexture2D::3492833294584347466::1597086395::1756231403::1::::<><><>0<>0<>4c1075663f688acabb7be409adcf8081<>res://.godot/imported/coches (6).png-cdc42db5ee860036bf6137bcba16953c.ctex::
+coches (7).png::CompressedTexture2D/CompressedTexture2D::5746788864318769049::1597086405::1756231403::1::::<><><>0<>0<>e19da67140cd45f90e492ca62562a5df<>res://.godot/imported/coches (7).png-d5a2f056854629b07e153ab4cb961e51.ctex::
+coches (8).png::CompressedTexture2D/CompressedTexture2D::4555010944535216394::1597086416::1756231403::1::::<><><>0<>0<>4aa77184c267d0e943616c181d352596<>res://.godot/imported/coches (8).png-76c1b91a1924add42dfb793bf68f5acc.ctex::
+coches (9).png::CompressedTexture2D/CompressedTexture2D::783135933818877462::1597086424::1756231403::1::::<><><>0<>0<>6c5981425bbc43c2644145369d9aac4b<>res://.godot/imported/coches (9).png-675f6bc8630f0fdd53032226340787b8.ctex::
+coches (10).png::CompressedTexture2D/CompressedTexture2D::3104414911989420703::1597086432::1756231403::1::::<><><>0<>0<>10c0fd0cc76f2f111dffe9b3992693da<>res://.godot/imported/coches (10).png-0525a86d45f61ed4312a652eeef7cdd9.ctex::
+coches (11).png::CompressedTexture2D/CompressedTexture2D::1610966564850948105::1597086440::1756231403::1::::<><><>0<>0<>8929940284e28ef956c4bef1f0fcd1c9<>res://.godot/imported/coches (11).png-953177e23615bfc6215cf3b343da0f20.ctex::
+coches (12).png::CompressedTexture2D/CompressedTexture2D::8337575058546748858::1597086449::1756231403::1::::<><><>0<>0<>180d4012ae8d102082f7f3c96ae7e77c<>res://.godot/imported/coches (12).png-bca174333693204c4abc32dffd00081a.ctex::
+coches (13).png::CompressedTexture2D/CompressedTexture2D::205186388173717073::1597086461::1756231403::1::::<><><>0<>0<>c7f4ab6f27409f84acc7b3077fc8fc31<>res://.godot/imported/coches (13).png-e4411b5efc1d7b3ac8f581954d4df8d1.ctex::
+coches (14).png::CompressedTexture2D/CompressedTexture2D::4003863924006579054::1597086475::1756231403::1::::<><><>0<>0<>c846ae582c1ffd032ed3c2a50f938052<>res://.godot/imported/coches (14).png-f3b2bf382e9f5fd1a2dfa22e573bf3b7.ctex::
+::res://Material Freeway/galinha/::1756231396
+::res://Material Freeway/galinha/baixo/::1756231403
+sprite_0.png::CompressedTexture2D/CompressedTexture2D::7306669125752494454::1597085084::1756231403::1::::<><><>0<>0<>1a2235aa312cc9f4e233aeb5f2c6abca<>res://.godot/imported/sprite_0.png-f6a6492ed100538b3c3ef42b56ae2725.ctex::
+sprite_1.png::CompressedTexture2D/CompressedTexture2D::3597672459017527392::1597085084::1756231403::1::::<><><>0<>0<>287d7ff6a1a938ccb112b6f7c1300b80<>res://.godot/imported/sprite_1.png-55403e3d3c54f6151f7b984845c8384a.ctex::
+sprite_2.png::CompressedTexture2D/CompressedTexture2D::2346644690167169641::1597085084::1756231403::1::::<><><>0<>0<>6d2b27f5dcc73e54b7cbe9dee69f5804<>res://.godot/imported/sprite_2.png-9316dd8da6afbb8cf845a541d5eb4434.ctex::
+::res://Material Freeway/galinha/cima/::1756231403
+sprite_0.png::CompressedTexture2D/CompressedTexture2D::4185004926252522762::1597085036::1756231403::1::::<><><>0<>0<>7b135731bea18e1e335e2ac53aa143d7<>res://.godot/imported/sprite_0.png-41cdf88049b166d0ecd4058f36eb58e6.ctex::
+sprite_1.png::CompressedTexture2D/CompressedTexture2D::1850604382228443161::1597085036::1756231403::1::::<><><>0<>0<>a1c689c162f1be3127501eca630189fd<>res://.godot/imported/sprite_1.png-e3549a69179b65d8c8270577e0ed71b9.ctex::
+sprite_2.png::CompressedTexture2D/CompressedTexture2D::7341016437868443578::1597085036::1756231403::1::::<><><>0<>0<>3d4140f2931421711dd83ede7bcb9275<>res://.godot/imported/sprite_2.png-82c552b943b78fad44f4c088752fac59.ctex::
+::res://Material Freeway/sapo/::1756232433
+Frogger001.png::CompressedTexture2D/CompressedTexture2D::8425338824034703567::1756232276::1756232105::1::::<><><>0<>0<>4f3ac70f9adf30b0eeb2c66bca7faec4<>res://.godot/imported/Frogger001.png-3b7d6a0a78f68c6fb01c5e03757c1166.ctex::
+Frogger002.png::CompressedTexture2D/CompressedTexture2D::3659219556778602608::1756232099::1756232105::1::::<><><>0<>0<>dd28eab981e37b235c1379ac32ec3a5d<>res://.godot/imported/Frogger002.png-29f8317a7a2c568bc79fd3b27328462c.ctex::
+FroggerCima001.png::CompressedTexture2D/CompressedTexture2D::8771761132653989048::1756232311::1756232433::1::::<><><>0<>0<>dbf72c20ca8bded8162252bfb222a12f<>res://.godot/imported/FroggerCima001.png-48bee6de068d486d950d3a90df4b4354.ctex::
+FroggerCima002.png::CompressedTexture2D/CompressedTexture2D::7985204707848834051::1756232400::1756232433::1::::<><><>0<>0<>431a0897382ddd168e3e3f0e718d72fd<>res://.godot/imported/FroggerCima002.png-83a9ade8e55e6899150b04458ee0295d.ctex::
+FroggerDireita001.png::CompressedTexture2D/CompressedTexture2D::43563697021987267::1756232326::1756232433::1::::<><><>0<>0<>184a9adcd5b7145e6e361ff6e6752731<>res://.godot/imported/FroggerDireita001.png-31a87ce894434fbc137e49c9c54a2b1a.ctex::
+FroggerDireita002.png::CompressedTexture2D/CompressedTexture2D::5530705853302265449::1756232420::1756232433::1::::<><><>0<>0<>ec7a26dc4549fc2c810954dc10df7382<>res://.godot/imported/FroggerDireita002.png-25aeab1739964b313368c0e2c023b1e2.ctex::
+FroggerEsquerda001.png::CompressedTexture2D/CompressedTexture2D::7118995355916685189::1756232293::1756232433::1::::<><><>0<>0<>f0915921e37feece69f6691b4fd32eda<>res://.godot/imported/FroggerEsquerda001.png-d08116964ec6bd8a7d2614e997beadf4.ctex::
+FroggerEsquerda002.png::CompressedTexture2D/CompressedTexture2D::2646647564270628641::1756232374::1756232433::1::::<><><>0<>0<>8981e1751b88c09b2d981a4004018c0d<>res://.godot/imported/FroggerEsquerda002.png-f59559bd14bbdf733a248da7c867abc9.ctex::
+::res://Material Freeway/sons/::1756231404
+colide.wav::AudioStreamWAV/AudioStreamWAV::8315233253440450989::1597004417::1756231403::1::::<><><>0<>0<>76dba778d88033845b5813f22a907933<>res://.godot/imported/colide.wav-fb86564d8c94032a497fc1d005b26f6e.sample::
+ganhou.wav::AudioStreamWAV/AudioStreamWAV::5770435428437764613::1459966844::1756231403::1::::<><><>0<>0<>680a417cd8303c3c6b34afd558549fd1<>res://.godot/imported/ganhou.wav-3db312a239926aada65f838c563872e8.sample::
+ponto.wav::AudioStreamWAV/AudioStreamWAV::2396887368671961840::1597000418::1756231403::1::::<><><>0<>0<>986612d265b7b7cf1f4ede76dc6381ab<>res://.godot/imported/ponto.wav-3fd6725259a16e6e80f1d34ad7ee16e9.sample::
+tema.wav::AudioStreamWAV/AudioStreamWAV::3294914488811808625::1597004829::1756231404::1::::<><><>0<>0<>92fe8527a50985c16a18d526a3cc4336<>res://.godot/imported/tema.wav-ff8ca214378a69ec2f7c2c59a589a5bd.sample::
